@@ -7,7 +7,7 @@ export default defineConfig({
 	site: 'https://www.windhole.net', 
 	integrations: [
 		starlight({
-			title: 'windhole's doc site',
+			title: 'windhole doc site',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
 			sidebar: [
 				{
