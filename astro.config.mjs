@@ -4,7 +4,7 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://www.windhole.net'
+	site: 'https://www.windhole.net', 
 	integrations: [
 		starlight({
 			title: 'windhole's doc site',
