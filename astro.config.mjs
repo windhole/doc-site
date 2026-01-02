@@ -7,7 +7,7 @@ export default defineConfig({
 	site: 'https://www.hotdoc.jp', 
 	integrations: [
 		starlight({
-			title: 'hot-reloaded docs',
+			title: 'windhole docs',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
 			sidebar: [
 				{
