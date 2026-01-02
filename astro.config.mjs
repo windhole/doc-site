@@ -4,10 +4,10 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://www.windhole.net', 
+	site: 'https://www.hotdoc.jp', 
 	integrations: [
 		starlight({
-			title: 'windhole doc site',
+			title: 'hot-reloaded docs',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
 			sidebar: [
 				{
@@ -25,3 +25,4 @@ export default defineConfig({
 		}),
 	],
 });
+
