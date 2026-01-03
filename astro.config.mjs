@@ -10,7 +10,7 @@ export default defineConfig({
 			title: 'windhole docs',
 			logo: {
 				src: './public/hotdoc_logo_transp.svg', 
-				replacesTitle: true,
+				replacesTitle: false,
 			},
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
 			sidebar: [
