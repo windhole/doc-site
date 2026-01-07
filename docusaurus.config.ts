@@ -77,19 +77,24 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'My Site',
+      title: 'windhole docs',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'windhole docs Logo',
         src: 'img/logo.svg',
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          type: 'doc',
+          docId: 'articles/index',
           position: 'left',
-          label: 'Tutorial',
+          label: '記事',
         },
-//        {to: '/blog', label: 'Blog', position: 'left'},
+        {
+          type: 'doc',
+          docId: 'words/index',
+          position: 'left',
+          label: '用語集',
+        },
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
