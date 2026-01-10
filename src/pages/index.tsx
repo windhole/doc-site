@@ -22,14 +22,7 @@ export default function Home(): React.JSX.Element {
             {siteConfig.title}
           </Heading>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
-          
-          <div className={styles.buttons} style={{marginTop: '2rem'}}>
-            <Link
-              className="button button--primary button--lg"
-              to="/docs/intro">
-              ドキュメントを読む →
-            </Link>
-          </div>
+
         </div>
       </main>
     </Layout>
