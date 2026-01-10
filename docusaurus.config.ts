@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'windhole docs',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'ドキュメントサイトの実験場',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -80,7 +80,7 @@ const config: Config = {
       title: 'windhole docs',
       logo: {
         alt: 'windhole docs Logo',
-        src: 'img/logo.svg',
+        src: 'img/hotdoc_logo_transp.svg',
       },
       items: [
         {
@@ -96,7 +96,7 @@ const config: Config = {
           label: '用語集',
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/windhole/doc-site',
           label: 'GitHub',
           position: 'right',
         },
@@ -106,46 +106,16 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'SNS',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            // {
-            //   label: 'Blog',
-            //   to: '/blog',
-            // },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'X.com',
+              href: 'https://x.com/windhole',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} windhole publishing. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,

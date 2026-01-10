@@ -1,6 +1,6 @@
 ---
-sidebar_label: 'Hi!'
-sidebar_position: 3
+sidebar_label: 'はじめの一歩'
+sidebar_position: 1
 ---
 
 # Hello
